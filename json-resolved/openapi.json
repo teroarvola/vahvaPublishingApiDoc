@@ -1803,7 +1803,7 @@
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE2 2.2.2 (asian) Julkistettu pvm",
+              "description" : "SÄHKE2 2.2.2 (asian) Julkistettu pvm (NOT IMPLEMENTED)",
               "format" : "date-time"
             }
           },
@@ -1811,7 +1811,7 @@
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE2 2.2.3 (asian) Lähetetty pvm",
+              "description" : "SÄHKE2 2.2.3 (asian) Lähetetty pvm (NOT IMPLEMENTED)",
               "format" : "date-time"
             }
           },
@@ -1827,7 +1827,7 @@
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE2 2.2.5 (asian) Saatavilla pvm",
+              "description" : "SÄHKE2 2.2.5 (asian) Saatavilla pvm (NOT IMPLEMENTED)",
               "format" : "date-time"
             }
           },
@@ -1835,7 +1835,7 @@
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE2 2.2.6 (asian) Vastaanotettu pvm",
+              "description" : "SÄHKE2 2.2.6 (asian) Vastaanotettu pvm (NOT IMPLEMENTED)",
               "format" : "date-time"
             }
           },
@@ -1955,12 +1955,12 @@
         "properties" : {
           "accepted" : {
             "type" : "string",
-            "description" : "SÄHKE2 4.1.1 Hyväksytty pvm",
+            "description" : "SÄHKE2 4.1.1 Hyväksytty pvm (NOT IMPLEMENTED)",
             "format" : "date-time"
           },
           "issued" : {
             "type" : "string",
-            "description" : "SÄHKE2 5.1.2 Julkistettu pvm",
+            "description" : "SÄHKE2 5.1.2 Julkistettu pvm (NOT IMPLEMENTED)",
             "format" : "date-time"
           },
           "created" : {
@@ -1970,7 +1970,7 @@
           },
           "sent" : {
             "type" : "string",
-            "description" : "SÄHKE2 5.1.4 Lähetetty pvm",
+            "description" : "SÄHKE2 5.1.4 Lähetetty pvm (NOT IMPLEMENTED)",
             "format" : "date-time"
           },
           "modified" : {
@@ -1985,14 +1985,14 @@
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE 5.2 (toimenpiteen) Kuvaus"
+              "description" : "SÄHKE 5.2 (toimenpiteen) Kuvaus (NOT IMPLEMENTED)"
             }
           },
           "abstract" : {
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE 2.5.1 (toimenpiteen) Tiivistelmä"
+              "description" : "SÄHKE 2.5.1 (toimenpiteen) Tiivistelmä (NOT IMPLEMENTED)"
             }
           },
           "title" : {
@@ -2001,7 +2001,7 @@
           },
           "custom" : {
             "type" : "array",
-            "description" : "SÄHKE2 2.8 (toimenpiteen) Organisaatiokohtaiset metatiedot",
+            "description" : "SÄHKE2 2.8 (toimenpiteen) Organisaatiokohtaiset metatiedot (NOT IMPLEMENTED)",
             "items" : {
               "$ref" : "#/components/schemas/CustomMetadata"
             }
@@ -2021,7 +2021,7 @@
           },
           "systemName" : {
             "type" : "string",
-            "description" : "JHS191 6.4 Tietojärjestelmä. The name of the information system used in the action"
+            "description" : "JHS191 6.4 Tietojärjestelmä. The name of the information system used in the action (NOT IMPLEMENTED)"
           },
           "record" : {
             "type" : "array",
@@ -2034,7 +2034,7 @@
         "description" : "SÄHKE2 5 Toimenpide. Note that there is no separate \"Task\" entity in P360. \"Task\" is actually two pieces of custom metadata in Document object, namely \"Toimenpiteen nimeke\" (such as \"Kanslaiskirjeen vastaanottaminen\" - SÄHKE2 5.3 ) and \"Toimenpiteen tyyppi\" (such as \"06.04.07.00\" - SÄHKE2 5.6). This has a number of consequences * Each Action only has one Record * There can be multiple Actions of the same action type in Case * Some Action data is actually Record data (such as agent) * Only mandatory SÄHKE2 fields are used\n"
       },
       "Record" : {
-        "required" : [ "authenticity", "created", "function", "language", "nativeId", "restriction", "retentionPeriod", "retentionPeriodCalculationGrounds", "retentionReason", "status", "title", "type" ],
+        "required" : [ "authenticity", "created", "function", "language", "nativeId", "restriction", "status", "title", "type" ],
         "type" : "object",
         "properties" : {
           "subject" : {
@@ -2056,7 +2056,7 @@
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE 2.2.2 (asiakirjan) Julkistettu pvm",
+              "description" : "SÄHKE 2.2.2 (asiakirjan) Julkistettu pvm (NOT IMPLEMENTED)",
               "format" : "date-time"
             }
           },
@@ -2064,7 +2064,7 @@
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE 2.2.3 (asiakirjan) Lähetetty pvm",
+              "description" : "SÄHKE 2.2.3 (asiakirjan) Lähetetty pvm (NOT IMPLEMENTED)",
               "format" : "date-time"
             }
           },
@@ -2080,7 +2080,7 @@
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE 2.2.5 (asiakirjan) Saatavilla pvm",
+              "description" : "SÄHKE 2.2.5 (asiakirjan) Saatavilla pvm (NOT IMPLEMENTED)",
               "format" : "date-time"
             }
           },
@@ -2088,7 +2088,7 @@
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE 2.2.5 (asiakirjan) Vastaanotettu pvm",
+              "description" : "SÄHKE 2.2.5 (asiakirjan) Vastaanotettu pvm (NOT IMPLEMENTED)",
               "format" : "date-time"
             }
           },
@@ -2112,14 +2112,14 @@
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE 2.5 (asiakirjan) Kuvaus"
+              "description" : "SÄHKE 2.5 (asiakirjan) Kuvaus (NOT IMPLEMENTED)"
             }
           },
           "abstract" : {
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE 2.5.1 (asiakirjan) Tiivistelmä"
+              "description" : "SÄHKE 2.5.1 (asiakirjan) Tiivistelmä (NOT IMPLEMENTED)"
             }
           },
           "restriction" : {
@@ -2167,12 +2167,12 @@
           },
           "accepted" : {
             "type" : "string",
-            "description" : "SÄHKE2 4.1.1 Hyväksytty pvm",
+            "description" : "SÄHKE2 4.1.1 Hyväksytty pvm (NOT IMPLEMENTED)",
             "format" : "date"
           },
           "gathered" : {
             "type" : "string",
-            "description" : "SÄHKE2 4.1.2 Koottu pvm",
+            "description" : "SÄHKE2 4.1.2 Koottu pvm (NOT IMPLEMENTED)",
             "format" : "date"
           },
           "valid" : {
@@ -2183,7 +2183,7 @@
           },
           "signatureDescription" : {
             "type" : "string",
-            "description" : "SÄHKE2 4.3 Asiakirjan sähköinen allekirjoitus"
+            "description" : "SÄHKE2 4.3 Asiakirjan sähköinen allekirjoitus (NOT IMPLEMENTED)"
           },
           "coverage" : {
             "$ref" : "#/components/schemas/Coverage"
@@ -2192,21 +2192,21 @@
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE2 4.5 Kohdeyleisö"
+              "description" : "SÄHKE2 4.5 Kohdeyleisö (NOT IMPLEMENTED)"
             }
           },
           "source" : {
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE2 4.6 Lähde"
+              "description" : "SÄHKE2 4.6 Lähde (NOT IMPLEMENTED)"
             }
           },
           "rights" : {
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE2 4.7 Oikeudet"
+              "description" : "SÄHKE2 4.7 Oikeudet (NOT IMPLEMENTED)"
             }
           },
           "protectionClass" : {
