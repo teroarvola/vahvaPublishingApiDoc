@@ -145,6 +145,26 @@
             }
           }
         }, {
+          "name" : "otherId",
+          "in" : "query",
+          "description" : "OtherIds of the Case. \n",
+          "required" : false,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        }, {
+          "name" : "otherIdType",
+          "in" : "query",
+          "description" : "OtherId type. Can be EduskuntaTunnus, VahvaRecno or CaseNumber. There need to be exactly as many otherId as there are otherIdType fields. \n",
+          "required" : false,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        }, {
           "name" : "role",
           "in" : "query",
           "description" : "Limit to contacts in this/these role(s). Defaults to empty.",
@@ -199,7 +219,7 @@
         }, {
           "name" : "modificationDateFrom",
           "in" : "query",
-          "description" : "Limit results to those whose modification timestamp is later than this timestamp. Default is empty.",
+          "description" : "Limit results to those whose modification timestamp is later than this timestamp. Default is empty. Date format is YYYY-MM-DDTHH:MM:SSZ",
           "required" : false,
           "style" : "form",
           "explode" : true,
@@ -210,7 +230,7 @@
         }, {
           "name" : "modificationDateTo",
           "in" : "query",
-          "description" : "Limit results to those whose modification timestamp is earlier than this timestamp. Default is empty.",
+          "description" : "Limit results to those whose modification timestamp is earlier than this timestamp. Default is empty. Date format is YYYY-MM-DDTHH:MM:SSZ",
           "required" : false,
           "style" : "form",
           "explode" : true,
@@ -221,7 +241,7 @@
         }, {
           "name" : "creationDateFrom",
           "in" : "query",
-          "description" : "Limit results to those whose  creation timestamp later than this timestamp. Default is empty.",
+          "description" : "Limit results to those whose  creation timestamp later than this timestamp. Default is empty. Date format is YYYY-MM-DDTHH:MM:SSZ",
           "required" : false,
           "style" : "form",
           "explode" : true,
@@ -232,7 +252,7 @@
         }, {
           "name" : "creationDateTo",
           "in" : "query",
-          "description" : "Limit results to those whose creation timestamp is earlier than this timestamp. Default is empty.",
+          "description" : "Limit results to those whose creation timestamp is earlier than this timestamp. Default is empty. Date format is YYYY-MM-DDTHH:MM:SSZ",
           "required" : false,
           "style" : "form",
           "explode" : true,
@@ -331,7 +351,7 @@
         }, {
           "name" : "includeCaseReferences",
           "in" : "query",
-          "description" : "Whether to include case-case references. Defaults to false.",
+          "description" : "Whether to include case-case references. Defaults to false. NOT IMPLEMENTED.",
           "required" : false,
           "style" : "form",
           "explode" : true,
@@ -341,7 +361,7 @@
         }, {
           "name" : "includeCustomMetadata",
           "in" : "query",
-          "description" : "Whether to include custom metadata. Defaults to false.",
+          "description" : "Whether to include custom metadata. Defaults to false. NOT IMPLEMENTED.",
           "required" : false,
           "style" : "form",
           "explode" : true,
@@ -510,6 +530,26 @@
             }
           }
         }, {
+          "name" : "otherId",
+          "in" : "query",
+          "description" : "OtherIds of the Case. \n",
+          "required" : false,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        }, {
+          "name" : "otherIdType",
+          "in" : "query",
+          "description" : "OtherId type. Can be EduskuntaTunnus, VahvaRecno or CaseNumber. There need to be exactly as many otherId as there are otherIdType fields. \n",
+          "required" : false,
+          "style" : "form",
+          "explode" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        }, {
           "name" : "contact",
           "in" : "query",
           "description" : "List of contact technical id:s (recno) allowed. Results are filtered by given contacts.\nDefaults to empty. Can be limited to certain role(s) with \"role\" parameter.\n",
@@ -551,7 +591,7 @@
         }, {
           "name" : "modificationDateFrom",
           "in" : "query",
-          "description" : "Limit results to those whose modification timestamp is later than this timestamp. Default is empty.",
+          "description" : "Limit results to those whose modification timestamp is later than this timestamp. Default is empty. Date format is YYYY-MM-DDTHH:MM:SSZ",
           "required" : false,
           "style" : "form",
           "explode" : true,
@@ -562,7 +602,7 @@
         }, {
           "name" : "modificationDateTo",
           "in" : "query",
-          "description" : "Limit results to those whose modification timestamp is earlier than this timestamp. Default is empty.",
+          "description" : "Limit results to those whose modification timestamp is earlier than this timestamp. Default is empty. Date format is YYYY-MM-DDTHH:MM:SSZ",
           "required" : false,
           "style" : "form",
           "explode" : true,
@@ -573,7 +613,7 @@
         }, {
           "name" : "creationDateFrom",
           "in" : "query",
-          "description" : "Limit results to those whose  creation timestamp later than this timestamp. Default is empty.",
+          "description" : "Limit results to those whose  creation timestamp later than this timestamp. Default is empty. Date format is YYYY-MM-DDTHH:MM:SSZ",
           "required" : false,
           "style" : "form",
           "explode" : true,
@@ -584,7 +624,7 @@
         }, {
           "name" : "creationDateTo",
           "in" : "query",
-          "description" : "Limit results to those whose creation timestamp is earlier than this timestamp. Default is empty.",
+          "description" : "Limit results to those whose creation timestamp is earlier than this timestamp. Default is empty. Date format is YYYY-MM-DDTHH:MM:SSZ",
           "required" : false,
           "style" : "form",
           "explode" : true,
