@@ -2258,25 +2258,25 @@
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE2 4.4.1 Hallinnonala"
+              "description" : "SÄHKE2 4.4.1 Hallinnonala  (NOT IMPLEMENTED)"
             }
           },
           "spatial" : {
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE2 4.4.2 Alueellinen"
+              "description" : "SÄHKE2 4.4.2 Alueellinen  (NOT IMPLEMENTED)"
             }
           },
           "temporal" : {
             "type" : "array",
             "items" : {
               "type" : "string",
-              "description" : "SÄHKE2 4.4.3 Ajallinen"
+              "description" : "SÄHKE2 4.4.3 Ajallinen  (NOT IMPLEMENTED)"
             }
           }
         },
-        "description" : "SÄHKE2 4.4 Kattavauus"
+        "description" : "SÄHKE2 4.4 Kattavauus  (NOT IMPLEMENTED)"
       },
       "Authenticity" : {
         "required" : [ "checker", "date", "description" ],
@@ -2320,65 +2320,65 @@
         "properties" : {
           "replaces" : {
             "type" : "string",
-            "description" : "SÄHKE2 2.10.1 (asiakirja) Korvaa/Korvattu"
+            "description" : "SÄHKE2 2.10.1 (asiakirja) Korvaa/Korvattu  (NOT IMPLEMENTED)"
           },
           "isReplacedBy" : {
             "type" : "string",
-            "description" : "SÄHKE2 2.10.1 (asiakirja) Korvaa/Korvattu"
+            "description" : "SÄHKE2 2.10.1 (asiakirja) Korvaa/Korvattu  (NOT IMPLEMENTED)"
           },
           "references" : {
             "type" : "string",
-            "description" : "SÄHKE2 2.10.1 2.10.2 (asiakirja) Viittaa/On viitattu"
+            "description" : "SÄHKE2 2.10.1 2.10.2 (asiakirja) Viittaa/On viitattu  (NOT IMPLEMENTED)"
           },
           "isReferencedBy" : {
             "type" : "string",
-            "description" : "SÄHKE2 2.10.1 2.10.2 (asiakirja) Viittaa/On viitattu"
+            "description" : "SÄHKE2 2.10.1 2.10.2 (asiakirja) Viittaa/On viitattu  (NOT IMPLEMENTED)"
           },
           "required" : {
             "type" : "string",
-            "description" : "SÄHKE2 4.8.1 (asiakirja) Pakollinen/Liittyy pakollisena"
+            "description" : "SÄHKE2 4.8.1 (asiakirja) Pakollinen/Liittyy pakollisena  (NOT IMPLEMENTED)"
           },
           "isRequired" : {
             "type" : "string",
-            "description" : "SÄHKE2 4.8.1 (asiakirja) Pakollinen/Liittyy pakollisena"
+            "description" : "SÄHKE2 4.8.1 (asiakirja) Pakollinen/Liittyy pakollisena  (NOT IMPLEMENTED)"
           },
           "hasPart" : {
             "type" : "string",
-            "description" : "SÄHKE2 4.8.2 (asiakirja) Sisältää/Kuuluu"
+            "description" : "SÄHKE2 4.8.2 (asiakirja) Sisältää/Kuuluu  (NOT IMPLEMENTED)"
           },
           "isPartOf" : {
             "type" : "string",
-            "description" : "SÄHKE2 4.8.2 (asiakirja) Sisältää/Kuuluu"
+            "description" : "SÄHKE2 4.8.2 (asiakirja) Sisältää/Kuuluu  (NOT IMPLEMENTED)"
           },
           "hasFormat" : {
             "type" : "string",
-            "description" : "SÄHKE2 4.8.3 Myöhempi formaatti/Aikaisempi formaatti"
+            "description" : "SÄHKE2 4.8.3 Myöhempi formaatti/Aikaisempi formaatti  (NOT IMPLEMENTED)"
           },
           "isFormatOf" : {
             "type" : "string",
-            "description" : "SÄHKE2 4.8.3 Myöhempi formaatti/Aikaisempi formaatti"
+            "description" : "SÄHKE2 4.8.3 Myöhempi formaatti/Aikaisempi formaatti  (NOT IMPLEMENTED)"
           },
           "hasVersion" : {
             "type" : "string",
-            "description" : "SÄHKE2 4.8.4 Vanhempi versio/Uudempi versio"
+            "description" : "SÄHKE2 4.8.4 Vanhempi versio/Uudempi versio  (NOT IMPLEMENTED)"
           },
           "isVersionOf" : {
             "type" : "string",
-            "description" : "SÄHKE2 4.8.4 Vanhempi versio/Uudempi versio"
+            "description" : "SÄHKE2 4.8.4 Vanhempi versio/Uudempi versio  (NOT IMPLEMENTED)"
           },
           "hasRedaction" : {
             "type" : "string",
-            "description" : "SÄHKE2 4.8.5 Julkinen (\"mustattu\") versio/Salassa pidettävää tietoa sisältävä versio"
+            "description" : "SÄHKE2 4.8.5 Julkinen (\"mustattu\") versio/Salassa pidettävää tietoa sisältävä versio  (NOT IMPLEMENTED)"
           },
           "isRedactionOf" : {
             "type" : "string",
-            "description" : "SÄHKE2 4.8.5 Julkinen (\"mustattu\") versio/Salassa pidettävää tietoa sisältävä versio"
+            "description" : "SÄHKE2 4.8.5 Julkinen (\"mustattu\") versio/Salassa pidettävää tietoa sisältävä versio  (NOT IMPLEMENTED)"
           }
         },
-        "description" : "SÄHKE2 4.8 Suhde"
+        "description" : "SÄHKE2 4.8 Suhde  (NOT IMPLEMENTED)"
       },
       "SahkeDocument" : {
-        "required" : [ "formatName", "formatVersion", "hashAlgorithm", "hashValue", "nativeId", "useType" ],
+        "required" : [ "formatName", "hashAlgorithm", "hashValue", "nativeId", "useType" ],
         "type" : "object",
         "properties" : {
           "nativeId" : {
@@ -2404,11 +2404,11 @@
           },
           "formatVersion" : {
             "type" : "string",
-            "description" : "SÄHKE2 6.4.3.2 (formaatin) Versio"
+            "description" : "SÄHKE2 6.4.3.2 (formaatin) Versio  (NOT IMPLEMENTED)"
           },
           "mediumId" : {
             "type" : "string",
-            "description" : "SÄHKE2 6.4.4 Median identifiointitunnus"
+            "description" : "SÄHKE2 6.4.4 Median identifiointitunnus  (NOT IMPLEMENTED)"
           },
           "hashAlgorithm" : {
             "type" : "string",
@@ -2420,7 +2420,7 @@
           },
           "encryption" : {
             "type" : "string",
-            "description" : "SÄHKE2 6.4.7 Salaustapa"
+            "description" : "SÄHKE2 6.4.7 Salaustapa  (NOT IMPLEMENTED)"
           }
         },
         "description" : "SÄHKE2 6.4.2 Tiedosto"
@@ -2445,34 +2445,34 @@
         "properties" : {
           "acceptanceDate" : {
             "type" : "string",
-            "description" : "SÄHKE2 3.2.1 Suostumusajankohta",
+            "description" : "SÄHKE2 3.2.1 Suostumusajankohta (NOT IMPLEMENTED)",
             "format" : "date"
           },
           "acceptanceDescription" : {
             "type" : "string",
-            "description" : "SÄHKE2 3.2.2 Suostumuskuvaus"
+            "description" : "SÄHKE2 3.2.2 Suostumuskuvaus (NOT IMPLEMENTED)"
           },
           "notificationPeriod" : {
             "type" : "string",
-            "description" : "SÄHKE2 3.2.3 Tiedoksiantoperiodi"
+            "description" : "SÄHKE2 3.2.3 Tiedoksiantoperiodi (NOT IMPLEMENTED)"
           },
           "delivered" : {
             "type" : "string",
-            "description" : "SÄHKE2 3.2.4 Tiedoksiannon hakeminen",
+            "description" : "SÄHKE2 3.2.4 Tiedoksiannon hakeminen (NOT IMPLEMENTED)",
             "format" : "date"
           },
           "deliveryDate" : {
             "type" : "string",
-            "description" : "SÄHKE2 3.2.5 Muun tiedoksiannon lähettämispvm",
+            "description" : "SÄHKE2 3.2.5 Muun tiedoksiannon lähettämispvm (NOT IMPLEMENTED)",
             "format" : "date"
           },
           "arrivalDate" : {
             "type" : "string",
-            "description" : "SÄHKE2 3.2.6 Muun tiedoksiannon saapumispvm",
+            "description" : "SÄHKE2 3.2.6 Muun tiedoksiannon saapumispvm (NOT IMPLEMENTED)",
             "format" : "date"
           }
         },
-        "description" : "SÄHKE2 3.2 Sähköinen tiedoksianto"
+        "description" : "SÄHKE2 3.2 Sähköinen tiedoksianto (NOT IMPLEMENTED)"
       },
       "ClassificationScheme" : {
         "type" : "object",
