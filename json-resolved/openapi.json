@@ -386,8 +386,7 @@
           "style" : "form",
           "explode" : true,
           "schema" : {
-            "type" : "integer",
-            "format" : "int32"
+            "type" : "integer"
           }
         }, {
           "name" : "maxRows",
@@ -397,8 +396,7 @@
           "style" : "form",
           "explode" : true,
           "schema" : {
-            "type" : "integer",
-            "format" : "int32"
+            "type" : "integer"
           }
         }, {
           "name" : "reverseSortOrder",
@@ -768,8 +766,7 @@
           "style" : "form",
           "explode" : true,
           "schema" : {
-            "type" : "integer",
-            "format" : "int32"
+            "type" : "integer"
           }
         }, {
           "name" : "maxRows",
@@ -779,8 +776,7 @@
           "style" : "form",
           "explode" : true,
           "schema" : {
-            "type" : "integer",
-            "format" : "int32"
+            "type" : "integer"
           }
         }, {
           "name" : "reverseSortOrder",
@@ -1043,8 +1039,7 @@
           "style" : "form",
           "explode" : true,
           "schema" : {
-            "type" : "integer",
-            "format" : "int32"
+            "type" : "integer"
           }
         }, {
           "name" : "maxRows",
@@ -1054,8 +1049,7 @@
           "style" : "form",
           "explode" : true,
           "schema" : {
-            "type" : "integer",
-            "format" : "int32"
+            "type" : "integer"
           }
         } ],
         "responses" : {
@@ -1887,8 +1881,7 @@
           },
           "retentionPeriod" : {
             "type" : "integer",
-            "description" : "SÄHKE2 2.11.1 Säilytysajan pituus",
-            "format" : "int32"
+            "description" : "SÄHKE2 2.11.1 Säilytysajan pituus"
           },
           "retentionReason" : {
             "type" : "string",
@@ -2141,8 +2134,7 @@
           },
           "retentionPeriod" : {
             "type" : "integer",
-            "description" : "SÄHKE2 2.11.1 Säilytysajan pituus",
-            "format" : "int32"
+            "description" : "SÄHKE2 2.11.1 Säilytysajan pituus"
           },
           "retentionReason" : {
             "type" : "string",
@@ -2664,8 +2656,7 @@
           },
           "securityPeriod" : {
             "type" : "integer",
-            "description" : "SÄHKE2 2.6.2 Salassapitoaika",
-            "format" : "int32"
+            "description" : "SÄHKE2 2.6.2 Salassapitoaika"
           },
           "securityPeriodEnd" : {
             "type" : "string",
@@ -2718,6 +2709,10 @@
             "type" : "string",
             "description" : "language of the code, ISO 2-letter language code",
             "enum" : [ "fi", "sv", "en" ]
+          },
+          "recno" : {
+            "type" : "string",
+            "description" : "technical id of the code."
           },
           "code" : {
             "type" : "string",
@@ -3025,7 +3020,6 @@
           "ordinal" : {
             "type" : "integer",
             "description" : "The ordinal number of the document in the case",
-            "format" : "int32",
             "example" : 1
           },
           "documentId" : {
