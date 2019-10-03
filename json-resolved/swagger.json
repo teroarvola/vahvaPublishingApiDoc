@@ -209,7 +209,7 @@
         }, {
           "name" : "subOrganizationOk",
           "in" : "query",
-          "description" : "When searching with organization contacts, if set to true, then we have a hit if case's owning organizaton\nis a suborganization of a contact listed in parameter \"contact\". That is, we can search with LVM\nrecno, and all LVM sub-units would be considered a hit. In effect, this expands the list of contact\nrecnos in search criteria to all sub-organizations. Defaults to false. (NOT IMPLEMENTED)\n",
+          "description" : "When searching with organization contacts or monistry, if set to true, then we have a hit if case's owning organizaton\nis a suborganization of a contact listed in parameter \"contact\" or \"ministry\". That is, we can search with LVM\nrecno, and all LVM sub-units would be considered a hit. In effect, this expands the list of contact\nrecnos in search criteria to all sub-organizations. Defaults to false.\n",
           "required" : false,
           "style" : "form",
           "explode" : true,
