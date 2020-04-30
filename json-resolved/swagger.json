@@ -2764,7 +2764,8 @@
             "type" : "string",
             "description" : "SÄHKE2 2.6.10.3 Kuvaus"
           }
-        }
+        },
+        "description" : "NOT IMPLEMENTED"
       },
       "RestrictionInfo" : {
         "required" : [ "containsPersonalData", "publicityClass" ],
